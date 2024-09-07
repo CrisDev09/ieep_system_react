@@ -1,0 +1,85 @@
+table{
+    width: 100%;
+}
+table, th, td {
+    border-collapse: collapse;
+    text-align: start;
+}
+ table tr {
+     border-color: rgb(212, 212, 212);
+     border-style: solid;
+     border-width: 0;
+     border-bottom-width: 1px;
+     cursor: pointer;
+}
+
+table tbody tr:hover {
+    background-color: rgb(238, 238, 238);
+}
+
+table thead{
+    text-align: start;
+}
+.view-tree{
+    background-color: var(--color-white);
+    box-shadow: var(--box-shadow);
+    border-radius: 15px;
+    padding: 20px;
+    height: 88vh;
+    position: relative;
+    top: 1.5rem;
+}
+
+.view-form{
+    background-color: var(--color-white);
+    box-shadow: var(--box-shadow);
+    border-radius: 15px;
+    padding: 20px;
+    height: 88vh;
+    position: relative;
+    top: 1.5rem;
+}
+
+.content-main-form{
+    background-color: var(--color-background);
+    border-radius: 15px;
+    padding: 15px;
+    position: relative;
+}
+
+form label{
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    margin-right: 5px;
+}
+
+.header{
+    position: relative;
+    top: 0;
+    margin-bottom: 20px;
+    background-color: var(--color-background);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.btn{
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 1.3rem;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.btn:hover{
+    opacity: .8;
+}
+
+.btn-danger{
+    background-color: rgb(241, 81, 70);
+    color: #fff;
+}
+.btn-primary{
+    background-color: rgb(70, 241, 121);
+    color: #fff;
+}
